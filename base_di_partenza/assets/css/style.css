@@ -75,7 +75,7 @@ section h2 {
   font-weight: bold;
   text-transform: uppercase;
   margin-bottom: 1em;
-  background-color: gray;
+  background-color: rgb(154, 151, 151);
 }
 
 /* ELEMENTI NEL MAIN - ARTICLE */
@@ -206,4 +206,17 @@ footer a {
 }
 
 /* Mobile */
-/* dobbiamo rendere lgi elementi Li nell'header allineabili, quindi alle linea 34 aggiungo... */
+/* dobbiamo rendere gli elementi Li nell'header allineabili, quindi alle linea 34 aggiungo... */
+/* MEDIA */
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 5.7rem;
+    max-width: 520px;
+  }
+
+  article table {
+    margin-inline: auto;
+    margin-block: 8rem;
+    width: 50%;
+  }
+}
